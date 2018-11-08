@@ -1,7 +1,7 @@
 import java.util.*;
 public class FibboSubsequence {
 	public static void main(String args[]){
-		int i = 0,j=0,num=0,next=0,sub_next,final_next=0;
+		int i = 0,j=0,num=0,next=0,sub_next,bigLen=0;
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Size of Array");
 		int len = sc.nextInt();
@@ -36,7 +36,7 @@ public class FibboSubsequence {
 				}
 					else
 					{
-						break;
+						// break;
 					}
 
 			}
